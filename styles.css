@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+body{
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+}
+*/
+h1, h2, h3, h4{
+    font-family: 'Barlow', sans-serif;
+}
+p, li, label, input, button, textarea{
+    font-family:  'Barlow', sans-serif;
+    color: #585555;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: #585555;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-size: 38px;
+    padding: 10px;
+    color: #585555;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 10px;
+    color: #585555;
+}
+h3{
+    font-size: 24px;
+    color: #585555;
+}
+h4{
+    font-size: 20px;
+    color: #585555;
+}
+header{
+    margin-bottom: 15px;
+    padding: 10px;
+    background-image: linear-gradient(#e7b57b, rgb(221, 202, 184));
+    box-shadow: 10px 10px 4px 0 rgb(221, 177, 136);
+}
+nav{
+    overflow: hidden;
+}
+nav h1, nav ul{
+    display: inline;
+}
+nav ul li{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+section{
+    margin: 0 auto;
+}
+.poster{
+    width: 200px;
+}
+.poster1{
+    box-shadow: 10px 10px 4px 0 rgb(221, 177, 136);
+}
+.main-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+.main-container div{
+    display: inline-block;
+    text-align: right;
+    width: 450px;
+}
+.main-container div h4{
+    margin-top: 5px;
+}
+#descripcion-destacada{
+    text-align: left;
+}
+#izquierda{
+    text-align: left;
+}
+.Tipos-de-terapias-container{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.terapia{
+    display: inline-block;
+    text-align: center;
+    margin: 100px;
+    box-shadow: 10px 10px 4px 0 rgb(221, 177, 136);
+    background-color: whitesmoke;
+}
+
+.asesoramiento{
+    box-shadow: 10px 10px 4px 0 rgb(221, 177, 136);
+    border-radius: 50px;
+    padding: 10px;
+    width: 610px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+}
+.asesoramiento_container{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.asesoramiento_container div{
+    display: inline-block;
+    width: 280px;
+    text-align: center;
+}
+.derecha{
+    text-align: center;
+}
+#asesoramiento h3{
+    text-align: center;
+}
+.asesoramiento_botones{
+    text-align: center;
+}
+.asesoramiento_botones button{
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+#formulario{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0 rgb(221, 177, 136);
+    margin-bottom: 50px;
+    background-color: rgba(252, 218, 168, 0.945);
+    background-image: linear-gradient(#e7b57b, rgb(221, 177, 136));
+}
+#formulario textarea{
+    height: 100px;
+    font-size: 14px;
+    width: 100%;
+    clip-path: polygon( 100% 1% , 245% 89%, 0% 100% , 0% 4% );
+}
+.info{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #4b5156;
+    font-size: 14px;
+}
+#Enviar{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+footer{
+    background-image: linear-gradient(#e7b57b, rgb(221, 202, 184));
+    text-align: center;
+    padding: 15px;
+    color: #4b5156;
+    font-family: 'Lato', sans-serif;
+}
